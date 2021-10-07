@@ -9,6 +9,10 @@ export default function Father() {
       setQtd(qtd + 1)
     }
 
+    function subtrair(){
+      setQtd(qtd - 1)
+    }
+
     function reset(){
       setQtd(0)
     }
@@ -16,8 +20,9 @@ export default function Father() {
   return (
     <Container>
       <div className="titulo-f">Contador</div>
+      <button onClick={contar}>↑</button>
       <div className="qtd-f">{qtd}</div>
-      <button onClick={contar}>adicionar</button>
+      <button onClick={subtrair}>↓</button>
       <Son onReset={reset} qtd={qtd}/>
     </Container>
   );

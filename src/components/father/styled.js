@@ -14,7 +14,8 @@ const Container = styled.div`
 
     .qtd-f{
         color:#ffff;
-        font: 3em arial;
+        font: 2em arial;
     }
+
 `
 export{Container}
