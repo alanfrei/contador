@@ -14,7 +14,18 @@ const Container = styled.div`
 
     .qtd-f{
         color:#ffff;
-        font: 2em arial;
+        font: 3em arial;
+    }
+
+    .botao-f{
+        background-color: rgba(196, 196, 196, 0.2);
+        color: white;
+        border:  3px solid #FFB800;  
+        border-radius: 50em;
+        font: 15px arial;
+        font-weight: 600;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        padding: .5em;
     }
 
 `

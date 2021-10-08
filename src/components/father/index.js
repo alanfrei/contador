@@ -20,9 +20,9 @@ export default function Father() {
   return (
     <Container>
       <div className="titulo-f">Contador</div>
-      <button onClick={contar}>↑</button>
+      <button className="botao-f" onClick={contar}>↑</button>
       <div className="qtd-f">{qtd}</div>
-      <button onClick={subtrair}>↓</button>
+      <button className="botao-f" onClick={subtrair}>↓</button>
       <Son onReset={reset} qtd={qtd}/>
     </Container>
   );

@@ -8,8 +8,18 @@ const Container = styled.div`
     padding: 2em;
     background-color: white;
 
-    qtd-son{
-        font: 1em arial;
+    .qtd-son{
+        font: 2em arial;
+    }
+
+    .button-son{
+        background-color: black;
+        color: white;
+        border:  3px solid #FFB800;  
+        border-radius: 50em;
+        font: 15px arial;
+        font-weight: 600;
+        padding: .5em;
     }
 
 `
